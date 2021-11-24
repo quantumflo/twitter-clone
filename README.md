@@ -1,6 +1,6 @@
 # twitter-clone
 
-![project-url](https://twitter-squareboat.herokuapp.com/login)
+https://twitter-squareboat.herokuapp.com/login
 
 ## Description
 
