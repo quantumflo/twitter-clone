@@ -20,8 +20,6 @@ Make sure you have a running MongoDB instance.
 
 ### Configuration
 
-Copy the `server/.env.example` file to `server/.env` and update the values if your configuration is different than the default.
-
 Create a `.env` file in frontend folder and copy and past below command
 REACT_APP_BACKEND_URL=http://localhost:5000/api
 
