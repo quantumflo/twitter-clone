@@ -1,6 +1,6 @@
 # twitter-clone
 
-https://twitter-squareboat.herokuapp.com/login
+https://twitter-squareboat.herokuapp.com
 
 ## Description
 
