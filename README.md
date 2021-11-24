@@ -1,23 +1,61 @@
-"# twitter-clone" 
+# twitter-clone
 
-To run locallly
+![project-url](https://twitter-squareboat.herokuapp.com/login)
 
-SERVER
-got to backend folder
-type npm i
-type  npm run dev
+## Description
 
-note: Make sure MONGO_URL in app.js is relevant url
+A full-stack Twitter clone app built using Node.js, Express.js, React.js, and MongoDB.
+
+### Background
+
+The project was created as an assignment.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have a running MongoDB instance.
+
+### Configuration
+
+Copy the `server/.env.example` file to `server/.env` and update the values if your configuration is different than the default.
+
+Create a `.env` file in frontend folder and copy and past below command
+REACT_APP_BACKEND_URL=http://localhost:5000/api
 
 
-CLIENT
+### Installing
 
-go to frontend folder
+Install server dependencies
 
-type npm i
-create .env file and copy and paste the next line in it ==>
- REACT_APP_BACKEND_URL=http://localhost:5000/api
+```bash
+$ cd backend
+$ npm install
+```
 
- type npm start
+Install client dependencies
 
- Thats it!!!
+```bash
+$ cd frontend
+$ npm install
+```
+
+### Start the server in development mode
+
+```bash
+$ cd backend
+$ npm run dev
+```
+
+If everything was successful, you should see the messages being displayed in the terminal, telling that the server has successfully connected to a MongoDB and runs on a given port.
+
+### Start the client
+
+```bash
+$ cd frontend
+$ npm start
+```
+
+Now, the app should be running on `http://localhost:3000`.
